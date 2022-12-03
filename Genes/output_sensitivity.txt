@@ -1,0 +1,130 @@
+
+# I. SENSITIVITY:
+# tblastn:
+
+counter: 30826
+sensitiviy0.285
+species: grimshawi
+threshold_score: 0.97
+
+counter: 29064
+sensitiviy0.268
+species: willistoni
+threshold_score: 0.97
+
+counter: 49322
+sensitiviy0.356
+species: sechellia
+threshold_score: 0.97
+
+counter: 57499
+sensitiviy0.357
+species: simulans
+threshold_score: 0.97
+
+
+
+# blastn
+blastn
+counter: 5368
+sensitiviy0.049
+species: willistoni
+threshold_score: 0.97
+
+
+blastn
+counter: 7631
+sensitiviy0.071
+species: grimshawi
+threshold_score: 0.97
+
+blastn
+counter: 30029
+sensitiviy0.217
+species: sechellia
+threshold_score: 0.97
+
+blastn
+counter: 36721
+sensitiviy0.228
+species: simulans
+threshold_score: 0.97
+
+
+# augustus
+
+augustus
+counter: 70011
+sensitiviy0.593
+species: grimshawi
+threshold_score: 0.97
+
+augustus
+counter: 69877
+sensitiviy0.551
+species: willistoni
+threshold_score: 0.97
+
+augustus
+counter: 94815
+sensitiviy0.599
+species: sechellia
+threshold_score: 0.97
+
+augustus
+counter: 111990
+sensitiviy0.607
+species: simulans
+threshold_score: 0.97
+
+
+# II. PRECISION:
+
+# HERE, IGNORE SENSITIVITY . ONLY PRECISION.
+# DONE WITH 
+# threshold_score = 0.97
+# threshold_augustus_score = 0.8
+
+Species: simulans
+blastn:
+sensitiviy:     0.199
+precision:      0.17
+tblastn:
+sensitiviy:     0.624
+precision:      0.112
+augustus:
+sensitiviy:     0.234
+precision:      0.6
+
+Species: sechellia
+blastn:
+sensitiviy:     0.232
+precision:      0.133
+tblastn:
+sensitiviy:     0.732
+precision:      0.108
+augustus:
+sensitiviy:     0.278
+precision:      0.586
+
+Species: willistoni
+blastn:
+sensitiviy:     0.078
+precision:      0.095
+tblastn:
+sensitiviy:     0.816
+precision:      0.095
+augustus:
+sensitiviy:     0.345
+precision:      0.542
+
+Species: grimshawi
+blastn:
+sensitiviy:     0.101
+precision:      0.256
+tblastn:
+sensitiviy:     0.782
+precision:      0.099
+augustus:
+sensitiviy:     0.354
+precision:      0.627
